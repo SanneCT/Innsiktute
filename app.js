@@ -19,16 +19,21 @@ app.get("/", (req, res) => {
   res.render("index", { title: "Hjem" });
 });
 
-app.get("/deltagere", (req, res) => {
-  res.render("deltagere", { title: "Deltagere" });
+app.get("/basisprogram", (req, res) => {
+  res.render("basisprogram", { title: "Basisprogram" });
 });
 
-app.get("/grundere", (req, res) => {
-  res.render("grundere", { title: "Grundere" });
+app.get("/jobb", (req, res) => {
+  res.render("jobb", { title: "Skole- og jobbkordinering" });
 });
-app.get("/turer", (req, res) => {
-    res.render("turer", { title: "Turer" });
-  });
+
+app.get("/oss", (req, res) => {
+  res.render("oss", { title: "Om oss" });
+});
+
+app.get("/kontakt", (req, res) => {
+  res.render("kontakt", { title: "Kontakt oss" });
+});
 
 // app.use((req, res) => {
 //   res.status(404).render("404", { title: "404" });

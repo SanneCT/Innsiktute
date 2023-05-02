@@ -2,62 +2,34 @@
 
 /* nav styles */
 nav {
-    display: block;
-    justify-content: space-between;
-    margin-bottom: 60px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #394856;
-    text-transform: uppercase;
-    float: right;
-    width: 100%;
-  }
-  
-  nav ul {
-    display: block;
-    /* justify-content: space-between; */
-    /* align-items: flex-end; */
-  }
-  
-  nav li {
-    display: inline-block;
-    list-style-type: none;
-    margin-left: 20px;
-    padding: 0 2% 0 0;
-  }
-  
-  /* nav p, */
-  nav a {
-    color: #394856;
-    text-decoration: none;
-    font-size: 1.5rem;
-  }
-  
-  .bg-img {
-    /* The image used */
-    background-image: url("img/bal.jpg");
-  
-    height: 100%;
-    width: 100%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-  
-    /* Needed to position the navbar */
-    position: relative;
-  }
-  
-  /* Position the navbar container inside the image */
-  .container {
-    /* position: absolute; */
-    margin: 20px;
-    width: auto;
-  }
-  
-  /* hjem */
-  
+  display: block;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #394856;
+  text-transform: uppercase;
+  float: right;
+  width: 100%;
+}
+
+nav ul {
+  display: block;
+  /* justify-content: space-between; */
+  /* align-items: flex-end; */
+}
+
+nav li {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 20px;
+  padding: 0 2% 0 0;
+}
+
+/* nav p, */
+nav a {
+  color: #394856;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+/* hjem */
