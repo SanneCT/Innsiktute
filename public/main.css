@@ -7,13 +7,11 @@ body {
 
 /* nav styles */
 nav {
-  display: block;
+  display: flex;
   justify-content: space-between;
-  margin-bottom: 60px;
-  padding-bottom: 10px;
   text-transform: uppercase;
-  float: right;
   width: 100%;
+  
 }
 
 nav ul {
@@ -21,6 +19,7 @@ nav ul {
   background-color: black;
   opacity: 50%  ;
   padding: 1%;
+
 
   /* justify-content: space-between; */
   /* align-items: flex-end; */
@@ -41,4 +40,7 @@ nav a {
   float: left;
 }
 
-/* hjem */
+.logo {
+  max-width: 7%;
+  height: auto;
+}
