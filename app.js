@@ -2,7 +2,7 @@ const express = require("express");
 const morgan = require("morgan");
 
 const app = express();
-app.listen(3000);
+app.listen(3001);
 
 app.set("view engine", "ejs");
 

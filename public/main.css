@@ -1,19 +1,26 @@
 /* basic styles */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
 
 /* nav styles */
 nav {
-  display: block;
+  display: flex;
   justify-content: space-between;
-  margin-bottom: 60px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #394856;
   text-transform: uppercase;
-  float: right;
   width: 100%;
+  
 }
 
 nav ul {
   display: block;
+  background-color: black;
+  opacity: 50%  ;
+  padding: 1%;
+
+
   /* justify-content: space-between; */
   /* align-items: flex-end; */
 }
@@ -27,9 +34,13 @@ nav li {
 
 /* nav p, */
 nav a {
-  color: #394856;
+  color: #ffffff;
   text-decoration: none;
   font-size: 1.5rem;
+  float: left;
 }
 
-/* hjem */
+.logo {
+  max-width: 7%;
+  height: auto;
+}
